@@ -1,5 +1,6 @@
 import time,json
 import smtplib
+from termcolor import colored,cprint
 import requests
 from datetime import datetime,timedelta
 from api import Api
@@ -8,7 +9,7 @@ with open("user_config.json","r") as f:
     conf=json.load(f)
 
     if(conf["sender_email"]=="" or conf["sender_password"]=="" or len(conf["receiver_email"])==0):
-        print("Please Make sure to Enter Sender_Email, Receiver_Email and Sender_Password for Gmail before continuing")
+        cprint("Please Make sure to Enter Sender_Email, Receiver_Email and Sender_Password for Gmail before continuing",'red')
         exit(0)
 
 def keeptrack():
@@ -41,14 +42,14 @@ def sendEmail(msg):
             s.sendmail(conf['sender_email'], lines, message)
         s.quit()
     except:
-        print("Email Credentials not avilable or they are not valid please allow less secure apps from your gmail if your credentials are correct")
+        cprint("Email Credentials not avilable or they are not valid please allow less secure apps from your gmail if your credentials are correct",'red')
 def telegram_alert(bot_message):
     try:
         bot_token=conf['telegram_bot_token']
         bot_chatID=conf['telegram_chatID']
         url="https://api.telegram.org/bot"+bot_token+'/sendMessage?chat_id'+bot_chatID+'&parse_mode=Markdown&text='+bot_message
     except:
-        print("Telegram Credentials not avilable or they are not valid")
+        cprint("Telegram Credentials not avilable or they are not valid",'red')
     res=requests.get(url)
 def checkserver():
     msg="Daily Server Check"

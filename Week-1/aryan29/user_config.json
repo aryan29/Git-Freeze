@@ -3,8 +3,7 @@
     "sender_password": "password",
     "receiver_email": [
         "aaa@gmail.com",
-        "bbb@gmail.com",
-        "ccc@gmail.com"
+        "bbb@gmail.com"
     ],
     "telegram_bot_token": "",
     "telegram_chatID": "",
