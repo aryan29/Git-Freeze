@@ -41,9 +41,6 @@ We get you the JSON of features Any Number of Mobiles in just  a single Click
 Example JSON file Generated    
 ![Example JSON file Generated](https://github.com/aryan29/Git-Freeze/blob/aryan29/week1/Week-1/aryan29/images/data(json).png)
 We get you the best price of mobile by making use of the websites like [Smartprix](https://www.smartprix.com/) and [MySmartPrice](https://www.mysmartprice.com/) which compares price of mobile from various stores like Amazon,Flipkart,Ebay,Shopclues and various others   
-We get you the JSON of features Any Number of Mobiles in just  a single Click   
-
-We get you the best price of mobile by making use of the websites like [https://www.smartprix.com/](https://www.smartprix.com/) and [https://www.mysmartprice.com/](https://www.mysmartprice.com/) which compares price of mobile from various stores like Amazon,Flipkart,Ebay,Shopclues and various others   
 
 For Smartprix there is no need to get the code as well we can do that for you by a single click
 
