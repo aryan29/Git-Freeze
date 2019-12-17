@@ -23,9 +23,8 @@ Getting Link from Smartprix
 ![Getting Link from Smartprix](https://github.com/aryan29/Git-Freeze/blob/aryan29/week1/Week-1/aryan29/images/mysmartprixcode.png)    
 
 Getting Link from MySmartprice    
-![Getting Link from MySmartprice](https://github.com/aryan29/Git-Freeze/blob/aryan29/week1/Week-1/aryan29/images/mysmartpricecode.png)
-=======
-As shown below:-
+![Getting Link from MySmartprice](https://github.com/aryan29/Git-Freeze/blob/aryan29/week1/Week-1/aryan29/images/mysmartpricecode.png)  
+
 ## Setting Up Server
 Setup comes with a file called keeptrack.py which you can run infiniely on your system for keep receiving regular updates for linux systems just run this command
 ```python
